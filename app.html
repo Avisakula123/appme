@@ -1,44 +1,60 @@
+body{
+ margin:auto;
+ 
+}
+.container{
+    /* text-align: center; */
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color:whitesmoke;
+}
 
-<!DOCTYPE html>
-<html lang="en">
+h1{
 
-<head>
-    <title>Maitre D Practice App</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css">
-    <script src="rohith.js"></script>
-</head>
+    text-align: center;
+font-size: 30px;
+font-family: 'Oswald', sans-serif;
+background-color:lightseagreen;
+}
 
-<body>
+.exofont{
+    margin-left: 5px;
+    font-size: 25px;
+    font-family: 'Exo', sans-serif;
+}
+
+.inp{
+    padding-left: 8px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px grey solid;
+    
+}
+
+#right{
+    float: right;
+    display: flex;
+}
+
+.but{
+    /* border: 2px solid grey; */
+    /* border: none; */
+    /* background-color: white; */
+    color:white;
+    /* padding: 0; */
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 50%;
+    border-radius: 20PX;
+    background-color: #008CBA;
+    
+    cursor:pointer;
+    margin-left: 151px;
 
 
-    <h1>Maitre D</h1>
-    <main>
-
-
-        <div class="bill" name="bill" id="bill">
-
-            <div><label>Total: </label><input type="number" name="total" placeholder="Enter Total" id="total"></div>
-            <div> <label>Rate: </label><input type="number" name="rate" placeholder="Enter tip rate" id="rate"></div>
-        </div>
-
-        <div id="output">
-            <div class="output">Tip: </div>
-            <div class="output1" id="tip">$</div>
-            <br><br>
-            <div class="output">Tax: </div>
-            <div class="output1" id="tax">$</div>
-            <br><br>
-            <div class="output">Grand Total: </div>
-            <div class="output1" id="grandtotal">$</div>
-            <br><br>
-            <div><input type="submit" value="Calculate" name="submit" onclick="Bill()"></div>
-        </div>
-        <br><br>
-        <footer>
-            <div>&copy; 2020 Rohith Reddy</div>
-        </footer>
-
-</body>
-</main>
-</html>
+}
+footer{
+    background-color:gray;
+    height: 20px;
+}
