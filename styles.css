@@ -45,8 +45,8 @@ input[type=submit] {
     color: rgb(47, 47, 228);
 }
 footer{
-    background-color: rgb(21, 21, 151);
-    color:green;
+    background-color: rgb(21, 151, 38);
+    color: greenyellow;
     width: 100%;
     text-align: center;
 }
